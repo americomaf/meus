@@ -12,6 +12,7 @@
         table{
             width: 500px;
             border-collapse: collapse;
+            position: relative;
         }
        
         td, th {
@@ -19,8 +20,16 @@
             padding: 10px;
         }
         thead, tfoot{
+            background-color: rgba(0, 0, 0, 0.61);
+            color: white; 
+        }
+        thead > tr > th{
+            position: sticky;
+            top: -1px;
             background-color: black;
-            color: white;
+        }
+        tbody > tr:nth-child(odd){
+            background-color: lightgreen;
         }
         .num{
             text-align: right;
