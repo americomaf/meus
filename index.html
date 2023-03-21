@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculo</title>
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+    <link rel="shortcut icon" href="imagens/favicon-32x32.png" type="image/x-icon">
+
+</head>
+<body>
+        <header>
+            <h1>Curriculum Vitae</h1>
+            <p>Américo Cândido Mafumo</p>
+             
+        </header>
+       
+        
+        <section class="normal">
+            <img src="imagens/kito.jpg" alt="Perfil">
+            <h2 class="dadaos_pessoas">Dados Pessoais</h2>
+            <p>
+                <strong>Américo Cândido Mafumo</strong><br>
+                Nascido aos 23 |02| 1988 <br>
+                Casado <br>
+                Residência: Sofala - Chibabava <br>
+                Celular: +258 84 5632160 | 87 8632160<br>
+                Email: mafumo.88@gmail.com
+            </p>
+        </section>
+
+        <section class="imagem" id="img01">
+            <h2>Formação Profissional</h1>
+            <p>
+                2023 - Licenciatuara em Gestão de Sistemas de Informação em curso na UNISCED <br>
+                2016 - Curso Médio de Gestão de Sistemas de Informação no ITC <br>
+                2012 - 12ª Classe na Escola Secundária Francisco Manyanga<br>
+                2013 – Formação de Agente da linha do Cliente na Movitel;<br>
+	            Capacitação de montagem de equipamentos Solares pela Solar Works; <br>
+    	        Carta de Condução Categoria C;
+
+               
+            </p>
+        </section>
+
+        <section class="normal" id="meu-texto">
+            <h2>Experiência Profissional</h2>
+            <p>
+                Trabalhou como Agente da Linha do Cliente (e-Mola) na Nduku Investimento, SA; <br>
+                Trabalhou como Agente de Call Center na Movitel, SA durante 3 anos; <br>
+                Trabalhou como Agente de Aprovações/ Ativações dos sistemas Solar na Solar Works; <br>
+                Trabalhou como HelpDesk na Solar Works, SA.
+            </p> 
+            <p>
+                <h2>Funcões exercidas nas empresas (Movitel e Solar-Works, SA) </h3>
+                <ul class="funcoes">
+                    <li>Cadastro de novos clientes no sistema (Angaza); </li>
+                    <li>Monitoria dos clientes já registados no sistema;</li>
+                    <li>Elaborar relatórios semanais e mensais dos clientes registados e aprovados no sistema;</li>
+                    <li>Contactar os clientes recém cadastrados;</li>
+                    <li>Ajudar os cliente a usar os serviços/equipamentos no caso de dúvidas; </li>
+                    <li>Assistência aos clientes no estado disabled;</li>
+                </ul>
+
+            </p>       
+            
+        </section>
+      
+        <section class="imagem" id="img02" >
+            <h2>Idiomas</h2>
+            <p>
+                Português: Falado e Escrito <br>
+                Inglês: Noções Básicas <br>
+                Changana: Falado e Escrito <br>
+                
+            </p>
+        </section>
+
+      
+        <section class="normal">
+            <h2>Aptidões</h2>
+           <ul>
+               
+                   <li>Alto sentido de responsabilidade; </li>
+                   <li>Facilidade de comunicação inter pessoal;</li>
+                   <li>Facilidade de adaptação em qualquer ambiente de trabalho;</li>
+                   <li>Bom relacionamento com colegas;</li>
+                   <li>Disponibilidade Imediata.</li>
+               
+               
+           </ul>
+            <p>
+                <h2>MOTIVAÇÃO</h3>
+	            Procura de novos desafios que poderão exigir um maior esforço e criar uma nova dinâmica na sua carreira profissional
+
+            </p>
+            </section>
+           
+            <footer class="rodape">
+                <section class="rodape">
+                    <h2 class="normal rodape_titulo">Fale comigo</h2>
+                    <form action="#" method="get" class="form-newsletter">
+                        <label for="form-newsletter_label" class="form-newsletter_label"></label>
+                        Email Pessoal 
+                        <input id="email-newsletter" name="email-newsletter" type="email" class="form-newsletter_campo">
+                        <button type="submit" class="form-newsletter_botao">Enviar</button>
+
+                    </form>
+                </section>
+                <p class="titulo_redes"> Minhas redes Sociais</p>
+                <nav class="redes_sociais menu-redes">
+                    <a href="https://wa.me/seunumerodecelular" target="_blank">
+                        <i class="fab fa-whatsapp"></i>
+                      </a>
+                    <a href="https://web.facebook.com/" target="_blank">
+                        <i class="fab fa-facebook"></i>
+                      </a>
+                      
+                      <a href="https://www.instagram.com/" target="_blank">
+                        <i class="fab fa-instagram"></i>
+                      </a>
+                               
+                      <a href="//878632160" target="_blank">
+                        <i class="fab fa-linkedin"></i>
+                      </a>
+        
+                </nav>
+               
+            </footer>
+           
+            <script>
+                const meuTexto = document.querySelector("#meu-texto");
+        
+                meuTexto.addEventListener("mouseover", function() {
+                this.classList.add("animacao");
+                });
+        
+                meuTexto.addEventListener("mouseout", function() {
+                this.classList.remove("animacao");
+                });
+
+             </script>
+        </body>
+        </html>
